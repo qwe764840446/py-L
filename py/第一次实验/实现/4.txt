@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+a=input('num_a')
+c=input('循环几次')
+string=''
+num=0
+for i in range(int(c)):
+    string += a
+    num+=int(string)
+    print(string)
+print(num)
+
+

@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+list1=[]
+for i in range(10):
+    list1.append(str(i))
+print(list1)
+del_pos=input('which position do you want to delet')
+list1.pop(int(del_pos))
+print(list1)
